@@ -1,0 +1,205 @@
+.mains1{
+    background: url("https://imageio.forbes.com/specials-images/imageserve/61cdd9ec2bbdedb659077751/Neutral-living-color-corrected/960x0.jpg?fit=bounds&format=jpg&width=960");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.ds1{
+    opacity: 0.8;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.ds1 > p , .ds1 > span{
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.ds1 > p{
+    font-weight: 700;
+}
+.ds1 > span{
+    color: darkgrey;
+    margin-left: 0px;
+}
+.ds1 > .icons{
+    color: tomato;
+}
+.S1{
+    opacity: 0.8;
+    background-color: rgb(8, 8, 8);
+}
+.d1s1{
+    display: flex;
+}
+.d1s1d1, .d1s1d2{
+    flex: 0.5;
+    justify-content: center;
+}
+.d1s1d1d1{
+    color: white;
+    transform: translate(30%, 100%);
+}
+.d1s1d1d1 > button{
+    border: 2px solid tomato;
+    opacity: 0.8;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    padding: 10px 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.d1s1d1d1 >button:hover{
+    cursor: pointer;
+    background-color: tomato;
+}
+
+.d1s1d2 >img{
+    width: 500px;
+    height: 450px;
+    margin: auto;
+    margin-top:25%;
+}
+.d1s1d{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 1100px;
+}
+.d01,.d02,.d03,.d04{
+    
+    margin: 25px;
+}
+.d01 >p, .d02 > p, .d03 > p , .d04 > p{
+    font-size: 12px;
+    color: darkgray;
+    margin-top: 15px;
+}
+.d01 > h2, .d02 > h2, .d03 > h2, .d04 > h2{
+    font-weight: bolder;
+    font-size: 38px;
+    -webkit-text-stroke: 1.5px tomato;
+    -webkit-text-fill-color: black;
+}
+.d01 > h6, .d02 > h6, .d03 > h6, .d04 > h6{
+    font-weight: 700;
+}
+
+.d1s2, .d1s4{
+    width: 1000px;
+    margin: auto;
+}
+.d1s2d1, .d1s3d1, .d1s3d2, .d1s4d1, .d1s4d2{
+    display: flex;
+}
+.d1s2d1 >h2, .d1s3d2 >h2, .d1s4d1 > h2{
+    margin-right: 20px;
+    width: 100%;
+}
+.d1s2d1 > p, .d1s4d1 > p{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(80, 74, 74);
+    margin-top: 10px;
+}
+
+.d1s2d2{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.d1s3, .d1s5{
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.d1s3 > div, .d1s5 > div{
+    width: 1000px;
+    margin: auto;
+}
+
+.d1s3d1 > button{
+    margin-right: 0;
+    margin-left: auto;
+    border: 2px solid tomato;
+    color: white;
+    background-color: black;
+    padding: 10px 25px;
+    font-size: 16px;
+    align-self: baseline;
+    font-weight: 500;
+}
+.d1s3d1 > button:hover{
+    cursor: pointer;
+    background-color: tomato;
+}
+.d1s3d2{
+    margin-top: 50px;
+}
+
+.d1s3d2 > div > img{
+    margin-bottom: 15px;
+}
+.d1s3d2 > div > p{
+    font-size: 16px;
+    color: lightgray;
+}
+.d1s3d2 > div:hover{
+    background-color: tomato;
+    padding: 20px;
+    margin-right: 10px;
+}
+hr{
+    width: 70px;
+    height: 3px;
+    background-color: tomato;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2%;
+}
+.d1s4, .d1s5{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.d1s4d2{
+    margin-top: 40px;
+}
+.d1s4d2 > img, .d1s4d2 > form{
+    flex: 0.6;
+}
+.d1s4d2 > img{
+    height: 350px;
+    width: 600px;
+}
+.d1s4d2 > form {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+input{
+    margin-bottom: 20px;
+    width: 80%;
+    padding: 20px;
+    background-color: rgb(238, 238, 238);
+    color: darkgray;
+    font-size:12px;
+    border: none;
+}
+.d1s4d2 > form > button{
+    border: 2px solid tomato;
+    font-weight: 700;
+    background-color: white;
+    padding: 4px 20px;
+}
+.d1s4d2 > form > button:hover{
+    cursor: pointer;
+    background-color: tomato;
+    color: white;
+}

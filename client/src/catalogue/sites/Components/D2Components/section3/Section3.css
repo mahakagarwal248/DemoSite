@@ -1,0 +1,11 @@
+.demo2s3d1{
+    flex:0.5;
+    margin:auto;
+    text-align:center;
+    font-size: 64px;
+    font-weight: bold;
+    font-style: italic;
+}
+.demo2s3d2{
+    flex: 0.5;
+}

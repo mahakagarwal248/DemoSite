@@ -1,0 +1,40 @@
+.d1navbar {
+  top: 50px;
+  z-index: 4;
+  padding-top: 0px;
+  height: 75px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+.logo {
+  font-weight: bolder;
+  font-size: larger;
+  flex: 0.4;
+  text-align: center;
+  margin: auto;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.D1navcontents {
+  display: flex;
+  flex: 0.6;
+}
+.D1navcontents > h5 {
+  font-size: 14px;
+  padding: 30px 15px;
+}
+.D1navcontents > h5:hover {
+  cursor: pointer;
+}
+
+.hoverclass:hover {
+  background-color: #e65c00;
+  color: white;
+  font-size: medium;
+  text-decoration: underline;
+
+  z-index: 5;
+}

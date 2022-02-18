@@ -1,0 +1,31 @@
+.demo2s1{
+    
+    padding-bottom: 10px;
+}
+.demo2s1 > h1{
+    background-color:  #f8e6e4;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 300px;
+    font-family: 'Abril Fatface', cursive;
+    font-style: italic;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #660066;
+    -webkit-text-fill-color:  #cc6699;
+    -webkit-box-shadow: 0 0 5px 2px #000;
+    -moz-box-shadow: 0 0 5px 2px #000;
+    box-shadow: 0 0 5px 2px #000;
+}
+.demo2s1d1{
+    flex:0.5;
+    margin:auto;
+    text-align:center;
+    font-size: 64px;
+    font-weight: bold;
+    font-style: italic;
+}
+.demo2s1d2{
+    flex: 0.5;
+}

@@ -1,0 +1,50 @@
+.loginform3{
+    background: url("https://wallpaperaccess.com/full/16692.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+}
+
+.loginform3 > div{
+    color: white;
+    width: 500px;
+    margin-left: auto;
+}
+span > img{
+    height: 100px;
+    width: 100px;
+    width: 80%;
+}
+
+.loginform3 > .lf3d > form > h3{
+    text-align: center;
+    width: 80%;
+}
+.loginform3 > .lf3d > form > input{
+    background: transparent;
+    border-bottom: 2px solid white;
+}
+.loginform3 > .lf3d > form > input::-webkit-input-placeholder { 
+    font-family: FontAwesome;
+    font-weight: 500;
+    overflow: visible;
+    vertical-align: middle;
+    display: inline-block !important;
+    font-size: 16px;
+    }
+    
+.loginform3 > .lf3d > form > button{
+    margin-top: 10px;
+    color: white;padding: 7px;
+    background-color: rgb(40, 40, 177);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 80%;
+}
+.loginform3 > .lf3d > form > button:hover{
+    background-color: white;
+    color: rgb(21, 21, 109);
+    border: 2px solid rgb(21, 21, 109);
+    font-weight: 600;
+}

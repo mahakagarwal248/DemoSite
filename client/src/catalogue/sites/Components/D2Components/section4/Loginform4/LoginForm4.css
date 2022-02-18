@@ -1,0 +1,71 @@
+
+.loginform4{
+    padding: 2px;
+    border: 6px solid black;
+    width: max-content;
+    margin: auto;
+    border-radius: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.loginform4 > h2{
+    font-style: italic;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.loginform4 > form{
+    width: 360px;
+    margin: auto;
+    border: 2px solid black;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 2px 2px black;
+    outline: #ff99cc solid 4px;
+}
+.lf4d{
+    text-align: center;
+}
+.btn1, .btn2{
+    padding: 5px 15px;
+    margin:10px;
+    border-radius: 5px;
+}
+.btn1{
+    background-color: #3b5998;
+    color: white;
+    border: none;
+}
+.btn1 > .icon, .btn2 > .icon{
+    font-size: 28px;
+    vertical-align: middle;
+}
+.loginform4 > form > p{
+    text-align:center;
+    color: rgb(116, 114, 114);
+}
+.loginform4 > form > input{
+    margin: auto;
+    width: 100%;
+    border: 1px solid rgb(73, 72, 72);
+    margin-bottom: 10px;
+    height: 26px;
+    border-radius: 5px;
+}
+.loginform4 > form > input::-webkit-input-placeholder { 
+    font-family: FontAwesome;
+    font-weight: 600;
+    overflow: visible;
+    vertical-align: middle;
+    display: inline-block !important;
+    font-size: 16px;
+    }
+.loginform4 > form > button{
+    background: linear-gradient(to top right, #33ccff 0%, #ff99cc 100%);
+    margin: 10px auto;
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid black;
+}

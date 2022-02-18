@@ -1,0 +1,18 @@
+.mainclass {
+  margin: 25%;
+  width: 50%;
+  padding: auto;
+  text-align: center;
+  display: flex;
+}
+.spinnerclass {
+  float: left;
+  margin: auto;
+}
+.logoclass {
+  float: left;
+  margin: 20px;
+  font-size: 130px;
+  color: #408ba8;
+  font-family: "Lobster", cursive;
+}

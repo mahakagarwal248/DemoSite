@@ -1,0 +1,53 @@
+.firstdiv {
+  height: 60%;
+  width: 30%;
+  margin: auto;
+  margin-top: 15vh;
+  background-color: black;
+  padding: 30px;
+}
+.form{
+  width: 100%;
+}
+.h1{
+  color: palevioletred;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.mytextarea {
+  border: 1px solid rgb(56, 56, 56);
+  width: 100%;
+  margin: 5px 0;
+  padding: 3px;
+  border-radius: 5px;
+}
+.contactForm {
+  border-radius: 5px;
+  height: 30px;
+  border: 1px solid rgb(56, 56, 56);
+  width: 100%;
+}
+.contactForm:hover{
+  cursor: text;
+}
+.mytextarea:hover{
+  cursor: text;
+}
+.label{
+  font-size: 18px;
+  font-weight: 500;
+  color: palevioletred;
+}
+.button{
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5px 15px;
+  background-color: palevioletred;
+  margin: auto;
+  width: 100px;
+  margin-top: 15px;
+  display: block;
+}

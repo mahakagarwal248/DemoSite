@@ -1,0 +1,7 @@
+.card{
+    height: 270px;
+}
+.card:hover{
+    cursor: pointer;
+    border: 1px solid lightgray;
+}

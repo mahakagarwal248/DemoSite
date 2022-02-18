@@ -1,0 +1,56 @@
+.loginform2{
+    text-align: center;
+    margin-bottom: 50px ;
+}
+.ant-tabs{
+    background-color: rgb(14, 27, 51);
+    
+    padding: 25px 0px;
+    width: min-content;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+}
+.ant-tabs-nav-list{
+    justify-content: center;
+}
+.ant-tabs-tab{
+    padding: 5px 15px;
+    margin: 5px 0px;
+    font-size: larger;
+    display: inline-block;
+}
+.ant-tabs-tab:hover{
+    background-color: white;
+    color: rgb(20, 47, 202);
+    border: 2px solid rgb(20, 47, 202);
+    font-weight: 600;
+}
+.ant-tabs-tab-active{
+    background-color: rgb(20, 47, 202);
+    color: white;
+    border-radius: px;
+}
+.ant-tabs-tabpane > form{
+    width: 300px;
+    margin: auto;
+}
+.ant-tabs-tabpane > form > input{
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.ant-tabs-tabpane > form > button{
+    font-size: 18px;
+    padding: 5px 15px;
+    color: white;
+    background-color: rgb(20, 47, 202);
+    border-radius: 10px;
+    border: none;
+}
+.ant-tabs-tabpane > form > button:hover{
+    background-color: white;
+    color: rgb(20, 47, 202);
+    border: 2px solid rgb(20, 47, 202);
+    font-weight: 600;
+}

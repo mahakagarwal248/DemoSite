@@ -1,0 +1,74 @@
+.navbar {
+  position: fixed;
+  height: 85px;
+  width: 100%;
+  top: 0;
+  padding: 12px;
+  color: black;
+  display: flex;
+}
+.title {
+  display: flex;
+}
+.title > a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin: auto;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+.navbar > .contents > a {
+  font-size: 20px;
+  margin-right: 18px;
+  text-decoration: none;
+  color: black;
+}
+.contents {
+  display: flex;
+}
+.contents > .btn {
+  border: 2px solid #035473;
+  border-radius: 25px;
+  padding: 5px 20px;
+  background-color: #408ba8;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 40px;
+  text-decoration: none;
+}
+.hoverclass1 {
+  padding: 10px;
+  border-radius: 25px;
+}
+.hoverclass1:hover {
+  background-color: #408ba8;
+  color: white;
+  border: 2px solid #035473;
+}
+.navactive {
+  background-color: white;
+}
+@media only screen and (max-width: 780px) {
+  .navbar {
+    width: max-content;
+  }
+  .title > h3 {
+    margin-right: 50px;
+  }
+  .title > a {
+    margin-right: 30px;
+  }
+  .contents {
+    margin-left: 150px;
+  }
+}
+
+.title > h3 {
+  display: flex;
+  font-size: 28px;
+  margin-right: 100px;
+  margin-left: 24px;
+  font-weight: bold;
+}
